@@ -1,0 +1,22 @@
+body {
+	background-color:#c3dbef;
+}
+h1{
+	color:#255e8d;
+}
+#headertext{
+	display: inline-block;
+	text-align:center;
+	
+}
+#logo{
+	vertical-align:middle;
+	display: inline-block;
+	margin-left:35%;
+}
+.navigationbar {
+	background-color:#2b6ca3;
+}
+.navigationbar a {
+	
+}
