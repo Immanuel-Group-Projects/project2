@@ -63,6 +63,9 @@ p {
 }
 footer{
 	background-color:#2b6ca3;
+	position:absolute;
+	bottom: 0;
+    height: 50px;
 }
 #footertext {
 	font-style: italic;
