@@ -61,3 +61,26 @@ p {
 	color: #1b4365;
 	
 }
+footer{
+	background-color:#2b6ca3;
+}
+#footertext {
+	font-style: italic;
+	color:#ebf3fa;
+	text-align: right;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#d {
+	display: inline-block;
+	vertical-align: middle;
+	width: 1%
+}
+
+#yt {
+	display: inline-block;
+	width: 1%;
+	vertical-align: middle;
+	margin-left: 80%;
+}
