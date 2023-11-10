@@ -18,5 +18,16 @@ h1{
 	background-color:#2b6ca3;
 }
 .navigationbar a {
-	
+	margin-right:10%;
+	font-size: 25px;
+	color:#ebf3fa;
+	text-decoration:none;
+	line-height:50px;
+	border-width:3px;
+	border-style:solid;
+	padding:10px;
+	border-color:white;
+}
+.navigationbar a:hover {
+	color:#aecfea
 }
