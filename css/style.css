@@ -42,3 +42,8 @@ h1{
 	font-family: Verdana;
 	text-align: center;
 }
+
+#desc {
+	margin-left:40%;
+	margin-right:40%;
+}
