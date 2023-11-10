@@ -31,3 +31,14 @@ h1{
 .navigationbar a:hover {
 	color:#aecfea
 }
+
+#photoone {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#abouttext {
+	font-weight: bold;
+	font-family: Verdana;
+	text-align: center;
+}
