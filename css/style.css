@@ -96,6 +96,13 @@ footer{
 	text-align: center;
 }
 
+#center{
+    text-align: center;
+    display: inline-block;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -131,3 +138,4 @@ form {
     margin-bottom: 10px;
     width: 100%;
   }
+  
