@@ -7,3 +7,7 @@ function submitForm(){
     alert("Thank you for contacting us " + name + ". We will email you at " + email + " when we are available.");
   }
 
+  sendButton.addEventListener("click", function(event) {
+    event.preventDefault(); // Prevents the form from being submitted
+    alert("Thank you for adding your bio!");
+   });
