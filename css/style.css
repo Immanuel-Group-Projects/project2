@@ -114,3 +114,8 @@ form {
     background-color: #0e59a3;
     color: rgb(15, 22, 114);
   }
+
+  form div {
+    margin-bottom: 10px;
+    width: 100%;
+  }
