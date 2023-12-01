@@ -88,3 +88,8 @@ footer{
 	vertical-align: middle;
 	margin-left: 80%;
 }
+
+#contact{
+    display: inline-block;
+	text-align:center;
+}
