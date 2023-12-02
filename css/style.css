@@ -143,3 +143,55 @@ form {
     margin-bottom: 10px;
     width: 100%;
   }
+@media (min-width: 720px) {
+  header {
+    padding: 4rem 0;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  main {
+    padding: 4rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  form {
+    font-size: 1.5rem;
+  }
+  
+  strong {
+	  color: 800000;
+  }
+
+}
+
+@media (max-width: 720px) {
+  header {
+    padding: 4rem 0;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  h1 {
+    color: #ff5733;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  
+  strong {
+	  color: 800000;
+  }
+}
