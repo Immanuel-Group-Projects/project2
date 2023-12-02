@@ -33,6 +33,11 @@ h1{
 	color:#aecfea
 }
 
+.alignleft {
+	text-align: left;
+  padding-top: 5px;
+}
+
 #photoone {
   display: block;
   margin-left: auto;
@@ -138,4 +143,3 @@ form {
     margin-bottom: 10px;
     width: 100%;
   }
-  
