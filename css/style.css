@@ -11,8 +11,9 @@ h1{
 }
 #headertext{
 	display: inline-block;
-	text-align:center;
+	text-align: center;
 	font-size: 30px;
+
 }
 #logo{
 	vertical-align:middle;
@@ -95,6 +96,11 @@ p {
 	color: #1b4365;
 	font-family: 'Inter', sans-serif;
 	font-size: 20px;
+}
+
+details{
+  padding-bottom: 2%;
+  font-size: 45px;
 }
 footer{
   background-color: #2b6ca3;
