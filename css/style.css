@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url ('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 body {
 	background-color:#c3dbef;
 	font-weight:bold;
@@ -52,7 +53,6 @@ h1{
 }
 #abouttext {
 	font-weight: bold;
-	font-family: Verdana;
 	text-align: center;
 }
 
@@ -72,7 +72,8 @@ li {
 }
 p {
 	color: #1b4365;
-	
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
 }
 footer{
   background-color: #2b6ca3;
