@@ -1,25 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 body {
 	background-color:#c3dbef;
+	font-weight:bold;
 }
 h1{
-	color:#255e8d;
-
+	color: #255e8d;
+	font-family: "Open Sans", "Verdana", "Arial";
+	
 }
 #headertext{
 	display: inline-block;
 	text-align:center;
-	
+	font-size: 30px;
 }
 #logo{
 	vertical-align:middle;
 	display: inline-block;
-	margin-left:35%;
+	margin-left:30%;
 }
 .navigationbar {
 	background-color:#2b6ca3;
+	text-align: center;
+	border-radius: 10% / 50%;
 }
 .navigationbar a {
-	margin-right:10%;
+	margin-right: 10%;
+	margin-left: 10%;
+	float: none;
 	font-size: 25px;
 	color:#ebf3fa;
 	text-decoration:none;
@@ -34,7 +41,7 @@ h1{
 }
 
 .alignleft {
-	text-align: left;
+  text-align: left;
   padding-top: 5px;
 }
 
