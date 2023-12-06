@@ -5,10 +5,8 @@ Including changes already made that weren't a part of this fork, I'm working on:
 
 additional Javascript for the contact page - In the form of an alert when sending
 
-slideshow for images on events page
-
 making sure whitespace is consistent
 
-replacing details tag with a working accordion
+replacing details tag with a working accordion in events page - done
 
 editing media tags to make website more readable on smaller screens
