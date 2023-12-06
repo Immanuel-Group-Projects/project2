@@ -180,6 +180,10 @@ form {
     background-color: #ffffff;
     border-radius: 5px;
   }
+  
+  label {
+	  padding-right: 10px;
+  }
 
   form input[type="text"] {
     width: 90%;
@@ -188,7 +192,7 @@ form {
     border: none;
     font-size: 16px;
     background-color: #094179;
-    color: rgb(15, 22, 114);
+    color: #ffffff;
   }
 
   form input[type="submit"] {
@@ -247,24 +251,74 @@ form {
 }
 
 @media (max-width: 720px) {
-  header {
-    padding: 4rem 0;
-	background-size: cover;
-	height: 100vh;
-	width: 100%;
+  #headertext{
+	display: inline-block;
+	text-align: center;
+	font-size: 30px;
+
   }
+  #logo{
+	vertical-align:middle;
+	display: inline-block;
+	margin-left:30%;
+  }
+  
+  #desc {
+	margin-left:0%;
+	margin-right:0%;
+	padding: 1%;
+  }
+
+  #footertext {
+	margin-right: 20%;
+	font-size: 15px;
+  }
+
+  #d {
+	display: inline-block;
+	vertical-align: middle;
+	width: 5%
+  }
+
+  #yt {
+	display: inline-block;
+	width: 5%;
+	vertical-align: middle;
+  }
+
+
   main {
     max-width: 720px;
     margin: 0 auto;
   }
   h1 {
-    color: #ff5733;
+    font-size: 150%;
   }
+  
   p {
-    font-size: 1.5rem;
+    margin-left;
   }
   
   strong {
 	  color: 800000;
+  }
+  
+  .navigationbar {
+	background-color:#2b6ca3;
+	text-align: center;
+	border-radius: 10% / 50%;
+  }
+  .navigationbar a {
+	margin-right: 1%;
+	margin-left: 1%;
+	float: none;
+	font-size: 25px;
+	color:#ebf3fa;
+	text-decoration:none;
+	line-height:50px;
+	border-width:3px;
+	border-style:solid;
+	padding:10px;
+	border-color:white;
   }
 }
