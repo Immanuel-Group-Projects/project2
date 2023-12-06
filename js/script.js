@@ -1,11 +1,9 @@
-const sendButton = document.getElementById("send");
-
-function submitForm(){
-    var name = document.forms["contactUs"]["name"].value;
-    var email = document.forms["contactUs"]["email"].value;
-    document.getElementById('notification').play();
-    alert("Thank you for contacting us " + name + ". We will email you at " + email + " when we are available.");
-  }
+jQuery(function($) {
+  $('html').addClass('hasjs');
+  $('#send').on("click", function(){
+	alert('Thank you for reaching out to us. Expect a message within the next few days.');
+  });
+});
 function checkType() {
   var input = document.getElementById('resume');
   var path = input.value;
