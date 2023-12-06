@@ -11,4 +11,15 @@ function submitForm(){
     event.preventDefault(); // Prevents the form from being submitted
     alert("Thank you for adding your bio!");
    });
-   
+function checkType() {
+  var input = document.getElementById('resume');
+  var path = input.value;
+  
+  if (/.pdf/.exec(path) || /.docx/.exec(path)) {
+	  return;
+  } else {
+	  alert('File Type Invalid, must be a .pdf or .docx file');
+	  input.value = '';
+	  return;
+  }
+}

@@ -30,7 +30,7 @@
           <label>Bio <input type="text" id="bio" placeholder="Bio" required></label>
         </div>
 		<div>
-		  <label>Resum&#233 <input type="file" id="resume" name="resume" required></label>
+		  <label>Resum&#233 (.pdf or .docx) <input type="file" id="resume" name="resume" onchange="return checkType()" required></label>
         <div>
           <input type="submit" id="send" value="Become a Member">
         </div>
