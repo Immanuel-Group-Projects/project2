@@ -81,7 +81,11 @@ h1{
 h2 { 
   color:#255e8d;
   font-family: "Trebuchet MS", sans-serif;
-  padding: 1%;
+  padding: 2%;
+}
+
+#eventh2 {
+  background-color: #aecfea;
 }
 
 li {
