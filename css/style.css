@@ -86,7 +86,10 @@ h2 {
 
 #eventh2 {
   background-color: #aecfea;
+  font-style: italic;
 }
+
+
 
 li {
 	font-style: italic;
@@ -147,6 +150,19 @@ footer{
 	text-align: center;
 }
 
+#getconnected{
+	font-style: italic;
+	background-color: #85b7e0;
+}
+
+h3{
+	color: #255e8d;
+	font-family: "Open Sans", "Verdana", "Arial";
+	font-size: 20px;
+	text-align:center;
+	padding: 10px;
+}
+
 #center{
     text-align: center;
     display: inline-block;
@@ -166,7 +182,7 @@ form {
   }
 
   form input[type="text"] {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -180,11 +196,22 @@ form {
     color: white;
     border: none;
     border-radius: 5px;
+	margin-top: 5%;
     padding: 15px 30px;
     font-size: 16px;
     cursor: pointer;
   }
 
+  form input[type="file"] {
+	background-color: #094179;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
   form div {
     margin-bottom: 10px;
     width: 100%;
