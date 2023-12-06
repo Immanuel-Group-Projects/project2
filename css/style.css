@@ -220,6 +220,29 @@ form {
     margin-bottom: 10px;
     width: 100%;
   }
+
+  .accordion {
+    background-color: #aecfea;
+	cursor: pointer;
+	color: #255e8d;
+	padding: 20px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 50px;
+	transition: 0.2s;
+  }  
+  
+  .accordion:hover {
+	  background-color: #85b7e0;
+  }
+
+  .panel {
+	  display: none;
+  }
+
 @media (min-width: 720px) {
   header {
     padding: 4rem 0;
