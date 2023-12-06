@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url ('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 body {
-  background-color:#c3dbef;
-  font-weight:bold;
+  background-color: #c3dbef;
+  font-weight: bold;
 }
 
 h1{
@@ -23,7 +23,7 @@ h1{
 }
 
 .navigationbar {
-  background-color:#2b6ca3;
+  background-color: #2b6ca3;
   text-align: center;
   border-radius: 10% / 50%;
 }
@@ -33,17 +33,17 @@ h1{
   margin-left: 1%;
   float: none;
   font-size: 25px;
-  color:#ebf3fa;
-  text-decoration:none;
-  line-height:50px;
-  border-width:3px;
-  border-style:solid;
-  padding:10px;
-  border-color:white;
+  color: #ebf3fa;
+  text-decoration: none;
+  line-height: 50px;
+  border-width: 3px;
+  border-style: solid;
+  padding: 10px;
+  border-color: white;
 }
 
 .navigationbar a:hover {
-  color:#aecfea
+  color: #aecfea
 }
 
 .alignleft {
@@ -63,10 +63,9 @@ h1{
   padding: 1%;
 }
 
-
 #desc {
-  margin-left:0%;
-  margin-right:0%;
+  margin-left: 0%;
+  margin-right: 0%;
   padding: 1%;
 }
 
@@ -85,7 +84,7 @@ h1{
 }
 
 h2 { 
-  color:#255e8d;
+  color: #255e8d;
   font-family: "Trebuchet MS", sans-serif;
   padding: 2%;
 }
@@ -98,7 +97,7 @@ h2 {
 li {
   font-style: italic;
   color: #1b4365;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 20px;
   list-style: circle inside;
   padding: 1%
@@ -129,7 +128,7 @@ footer{
 
 #footertext {
   font-style: italic;
-  color:#ebf3fa;
+  color: #ebf3fa;
   text-align: right;
   display: inline-block;
   margin-left: 5px;
@@ -167,7 +166,7 @@ h3{
   color: #255e8d;
   font-family: "Open Sans", "Verdana", "Arial";
   font-size: 20px;
-  text-align:center;
+  text-align: center;
   padding: 10px;
 }
 
@@ -254,7 +253,7 @@ form div {
 @media (min-width: 720px) {
   #footertext {
     font-style: italic;
-    color:#ebf3fa;
+    color: #ebf3fa;
     text-align: right;
     display: inline-block;
     margin-left: 5px;
@@ -304,14 +303,14 @@ form div {
     font-size: 30px;
   }
   #logo{
-    vertical-align:middle;
+    vertical-align: middle;
     display: inline-block;
-    margin-left:30%;
+    margin-left: 30%;
   }
  
   #desc {
-  margin-left:35%;
-  margin-right:35%;
+  margin-left: 35%;
+  margin-right: 35%;
   padding: 1%;
   }
 
@@ -335,7 +334,7 @@ form div {
   }
   
   .navigationbar {
-    background-color:#2b6ca3;
+    background-color: #2b6ca3;
     text-align: center;
     border-radius: 10% / 50%;
   }
@@ -345,19 +344,19 @@ form div {
     margin-left: 10%;
     float: none;
     font-size: 25px;
-    color:#ebf3fa;
-    text-decoration:none;
-    line-height:50px;
-    border-width:3px;
-    border-style:solid;
-    padding:10px;
-    border-color:white;
+    color: #ebf3fa;
+    text-decoration: none;
+    line-height: 50px;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+    border-color: white;
   }
   
   li {
     font-style: italic;
     color: #1b4365;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 25px;
     list-style: circle inside;
     padding: 1%
