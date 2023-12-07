@@ -1,7 +1,11 @@
 jQuery(function($) {
   $('html').addClass('hasjs');
   $('#send').on("click", function(){
-	alert('Thank you for reaching out to us. Expect a message within the next few days.');
+	if (document.getElementById('name').value && document.getElementById('email').value && document.getElementById('bio').value && document.getElementById('resume').value) {
+      alert('Thank you for reaching out to us. Expect a message within the next few days.');
+	} else {
+	  alert('Please fill out all fields.');	
+	}
   });
 });
 
